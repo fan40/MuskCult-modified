@@ -3,8 +3,9 @@
  missing positive integer.
  For Example : [-2, -1, 0, 4, 6, 3] returns 1
 """
-
-
+#creating function bonjour
+def bonjour():
+    return print("Bonjour tout le monde")
 def find_missing(arr):
     max_ = max(arr)
     if max_ < 1:  # All negative values in the array
